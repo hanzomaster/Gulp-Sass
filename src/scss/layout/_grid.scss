@@ -3,6 +3,10 @@
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
   gap: 2rem;
+  // max-width: 1000px;
+  width: min(100% - 2.4rem, 1000px);
+  margin-left: auto;
+  margin-right: auto;
 
   @media (min-width: 900px) {
     grid-template-columns: 2fr 1fr;
